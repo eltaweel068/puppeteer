@@ -1126,13 +1126,27 @@ export abstract class ElementHandle<
    *
    * @param options - Delay in milliseconds. Defaults to 0.
    */
-  @throwIfDisposed()
+@throwIfDisposed()
   @bindIsolatedHandle
   async type(
     text: string,
     options?: Readonly<KeyboardTypeOptions>,
   ): Promise<void> {
     await this.focus();
+
+    if (options?.overwrite) {
+      // Determine the modifier key based on the operating system
+      // (Meta for macOS, Control for Windows/Linux)
+      // Note: We use globalThis.process to avoid breaking browser-based builds
+      const modifier = (globalThis.process?.platform === 'darwin') ? 'Meta' : 'Control';
+      
+      await this.frame.page().keyboard.down(modifier);
+      await this.frame.page().keyboard.press('KeyA');
+      await this.frame.page().keyboard.up(modifier);
+      
+      await this.frame.page().keyboard.press('Backspace');
+    }
+
     await this.frame.page().keyboard.type(text, options);
   }
 
