@@ -1124,7 +1124,7 @@ export abstract class ElementHandle<
    * await elementHandle.press('Enter');
    * ```
    *
-   * @param options - Delay in milliseconds. Defaults to 0.
+   * @param options - An object of options. Accepts `delay` in milliseconds Defaults to 0, and `overwrite` which clears the existing text before typing.
    */
 @throwIfDisposed()
   @bindIsolatedHandle
