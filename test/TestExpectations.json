@@ -280,13 +280,6 @@
   },
   {
     "testIdPattern": "[browser.spec] Browser specs Browser.get|setWindowBounds should set and get browser window maximized state",
-    "platforms": ["darwin"],
-    "parameters": ["headless"],
-    "expectations": ["FAIL"],
-    "comment": "Exact window bounds are different on Mac."
-  },
-  {
-    "testIdPattern": "[browser.spec] Browser specs Browser.get|setWindowBounds should set and get browser window maximized state",
     "platforms": ["darwin", "linux", "win32"],
     "parameters": ["webDriverBiDi"],
     "expectations": ["FAIL"],
@@ -1483,13 +1476,6 @@
     "comment": "https://github.com/puppeteer/puppeteer/issues/14017"
   },
   {
-    "testIdPattern": "[network.spec] network Response.text should wait until response completes",
-    "platforms": ["darwin", "linux", "win32"],
-    "parameters": ["firefox", "webDriverBiDi"],
-    "expectations": ["FAIL"],
-    "comment": "It emits part of the full response"
-  },
-  {
     "testIdPattern": "[oopif.spec] OOPIF should detect existing OOPIFs when Puppeteer connects to an existing page",
     "platforms": ["darwin", "linux", "win32"],
     "parameters": ["firefox", "webDriverBiDi"],
@@ -1551,13 +1537,6 @@
     "parameters": ["cdp", "chrome"],
     "expectations": ["SKIP"],
     "comment": "See https://github.com/puppeteer/puppeteer/issues/4840"
-  },
-  {
-    "testIdPattern": "[page.spec] Page Page.newPage should open pages in a new window in maximized state",
-    "platforms": ["darwin"],
-    "parameters": ["chrome", "headless"],
-    "expectations": ["FAIL"],
-    "comment": "Returns a different window size in Chrome Headless on Mac"
   },
   {
     "testIdPattern": "[page.spec] Page Page.setJavaScriptEnabled should work",

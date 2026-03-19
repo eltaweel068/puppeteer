@@ -2,6 +2,102 @@
 
 Combined changelog for puppeteer and puppeteer-core.
 
+## [24.40.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.39.1...puppeteer-v24.40.0) (2026-03-19)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * puppeteer-core bumped from 24.39.1 to 24.40.0
+
+
+### 🎉 Features
+
+* support PUPPETEER_DANGEROUS_NO_SANDBOX environment variable ([#14756](https://github.com/puppeteer/puppeteer/issues/14756)) ([2a8276e](https://github.com/puppeteer/puppeteer/commit/2a8276ee095d6f9676a6d2ea82541127cc9f7f1f))
+
+
+### 🛠️ Fixes
+
+* roll to Chrome 146.0.7680.153 ([#14787](https://github.com/puppeteer/puppeteer/issues/14787)) ([443e87f](https://github.com/puppeteer/puppeteer/commit/443e87f263cdc3578d6867ab72960f3c9979f72a))
+* roll to Chrome 146.0.7680.80 ([#14778](https://github.com/puppeteer/puppeteer/issues/14778)) ([14685a0](https://github.com/puppeteer/puppeteer/commit/14685a0e090671eb1d1db2dc9e4ec60117b8cfc3))
+
+
+## [24.39.1](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.39.0...puppeteer-v24.39.1) (2026-03-13)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * puppeteer-core bumped from 24.39.0 to 24.39.1
+
+
+### 🛠️ Fixes
+
+* roll to Chrome 146.0.7680.72 ([#14764](https://github.com/puppeteer/puppeteer/issues/14764)) ([177e3ed](https://github.com/puppeteer/puppeteer/commit/177e3ed44a0066c0252d7429fadd8fb82a81281f))
+* roll to Chrome 146.0.7680.76 ([#14777](https://github.com/puppeteer/puppeteer/issues/14777)) ([0751a83](https://github.com/puppeteer/puppeteer/commit/0751a83632d224695ae1f655405b2ec838774d33))
+* roll to Firefox 148.0.2 ([#14763](https://github.com/puppeteer/puppeteer/issues/14763)) ([e658f4e](https://github.com/puppeteer/puppeteer/commit/e658f4eec9656ff2ab97cdcd98f1fb33c8b06304))
+
+
+## [24.39.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.38.0...puppeteer-v24.39.0) (2026-03-10)
+
+
+### ♻️ Chores
+
+* **puppeteer:** Synchronize puppeteer versions
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * puppeteer-core bumped from 24.38.0 to 24.39.0
+
+
+### 🎉 Features
+
+* expose Page.hasDevTools ([#14758](https://github.com/puppeteer/puppeteer/issues/14758)) ([5ed7e77](https://github.com/puppeteer/puppeteer/commit/5ed7e7784a3e23bd1b42b8f0d041a74709a1bf4e))
+
+
+### 🛠️ Fixes
+
+* roll to Chrome 146.0.7680.66 ([#14752](https://github.com/puppeteer/puppeteer/issues/14752)) ([60ace04](https://github.com/puppeteer/puppeteer/commit/60ace04425d1ad4e99732298ed51839f09adcb0a))
+
+
+## [24.38.0](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.5...puppeteer-v24.38.0) (2026-03-04)
+
+
+### 🎉 Features
+
+* roll to Chrome 146.0.7680.31 ([#14729](https://github.com/puppeteer/puppeteer/issues/14729)) ([627eb5e](https://github.com/puppeteer/puppeteer/commit/627eb5e6572f5248286ab09d74c204e2399632e8))
+* roll to Firefox 148.0 ([#14728](https://github.com/puppeteer/puppeteer/issues/14728)) ([09b655a](https://github.com/puppeteer/puppeteer/commit/09b655a1a4b2ee389f4a63f701a347566a5b9d88))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * puppeteer-core bumped from 24.37.5 to 24.38.0
+
+
+### 🛠️ Fixes
+
+* consider browsingContext.navigationCommitted to dispose an existing navigation ([#14724](https://github.com/puppeteer/puppeteer/issues/14724)) ([b4e92c6](https://github.com/puppeteer/puppeteer/commit/b4e92c637c503710895c842f391793018c4f35b5))
+* disable PartitionAllocSchedulerLoopQuarantineTaskControlledPurge ([#14744](https://github.com/puppeteer/puppeteer/issues/14744)) ([e6c7425](https://github.com/puppeteer/puppeteer/commit/e6c7425d3f459adfbf5c1dd0b230da33fa9eb7c3))
+* roll to Chrome 145.0.7632.117 ([#14719](https://github.com/puppeteer/puppeteer/issues/14719)) ([1d407e1](https://github.com/puppeteer/puppeteer/commit/1d407e1e69ee0f307f8819152a980fa0a24835ff))
+
+
 ## [24.37.5](https://github.com/puppeteer/puppeteer/compare/puppeteer-v24.37.4...puppeteer-v24.37.5) (2026-02-19)
 
 
